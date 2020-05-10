@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import { Link } from 'react-scroll';
+import Resume from '../docs/resume.pdf';
 
 class Navigation extends React.Component {
 
@@ -33,6 +34,7 @@ class Navigation extends React.Component {
                             smooth={true}
                             duration={500}
                             >Contact</Link></li>
+                        <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
                     </ul>
                 </nav>
             </header>
