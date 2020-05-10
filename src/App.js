@@ -1,9 +1,10 @@
 import React from 'react';
-import Navigation from './Navigation'
-import About from './About'
-import Work from './Work';
-import Experience from './Experience';
-import Contact from './Contact';
+import Navigation from './components/Navigation'
+import About from './components/About'
+import Work from './components/Work';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Card from './components/Card';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Work />
       <Experience />
       <Contact />
+      <Card />
     </div>
   );
 }
