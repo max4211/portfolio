@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navigation.css';
-import { Link, animateScroll as scroll} from 'react-scroll';
+import { Link } from 'react-scroll';
 
 class Navigation extends React.Component {
 
