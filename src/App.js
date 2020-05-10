@@ -1,4 +1,5 @@
 import React from 'react';
+import Welcome from './components/Welcome'
 import Navigation from './components/Navigation'
 import About from './components/About'
 import Work from './components/Work';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div>
       <Navigation />
+      <Welcome />
       <About />
       <Work />
       <Experience />

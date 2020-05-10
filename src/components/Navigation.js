@@ -1,5 +1,4 @@
 import React from 'react';
-import './default.css';
 import './Navigation.css';
 import { Link } from 'react-scroll';
 
