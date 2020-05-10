@@ -38,6 +38,16 @@
     transform: rotateX(-180deg);
 }
 
+.card .back:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .card .back {
     position: absolute;
     top: 0;
@@ -99,5 +109,5 @@
 
 .social-icons a:hover {
     background: #e91e63;
-    
+
 }

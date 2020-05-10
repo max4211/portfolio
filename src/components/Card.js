@@ -20,10 +20,10 @@ class Card extends React.Component {
                             </span>
                         </h2>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/maxaaronsmith"><FontAwesome className="fa fa-facebook"/></a>
-                            <a href="https://www.instagram.com/maxsmith4211/"><FontAwesome className="fa fa-instagram"/></a>
-                            <a href="https://www.linkedin.com/in/max-smith-40a65b14a/"><FontAwesome className="fa fa-linkedin"/></a>
-                            <a href="https://github.com/max4211?tab=repositories"><FontAwesome className="fa fa-github"/></a>
+                            <a href="https://www.facebook.com/maxaaronsmith" target="_blank" rel="noreferrer"><FontAwesome className="fa fa-facebook"/></a>
+                            <a href="https://www.instagram.com/maxsmith4211/" target="_blank" rel="noreferrer"><FontAwesome className="fa fa-instagram"/></a>
+                            <a href="https://www.linkedin.com/in/max-smith-40a65b14a/" target="_blank" rel="noreferrer"><FontAwesome className="fa fa-linkedin"/></a>
+                            <a href="https://github.com/max4211?tab=repositories" target="_blank" rel="noreferrer"><FontAwesome className="fa fa-github"/></a>
                         </div>
                     </div>
                 </div>
