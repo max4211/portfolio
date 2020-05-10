@@ -5,7 +5,6 @@ import Work from './components/Work';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Card from './components/Card';
-import './App.css';
 
 function App() {
   return (

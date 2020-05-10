@@ -1,6 +1,7 @@
 import React from 'react';
 import Portrait from '../img/portrait.jpg';
 import FontAwesome from 'react-fontawesome';
+import './default.css';
 import './Card.css';
 
 class Card extends React.Component {
