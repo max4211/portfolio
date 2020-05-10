@@ -25,7 +25,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: lime;
+    color: #007bba;
+    text-decoration: underline;
+    text-decoration-color: #007bba; 
     -webkit-transition: color 1s;
     -moz-transition:    color 1s;
     -ms-transition:     color 1s;

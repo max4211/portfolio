@@ -1,0 +1,16 @@
+div .container {
+    background-color: #23233b;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    max-width: 1200px;
+}
+
+div .container h1 {
+    color: #7ccdf4;
+}
+
+div .container h2 {
+    color: #ebebeb;
+}

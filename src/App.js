@@ -4,6 +4,7 @@ import About from './About'
 import Work from './Work';
 import Experience from './Experience';
 import Contact from './Contact';
+import './App.css';
 
 function App() {
   return (
