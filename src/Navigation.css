@@ -42,3 +42,7 @@ header nav ul li a{
 header .header-cases {
     display: none;
 }
+
+.nav-item > .active {
+    border-bottom: 1pxx solid #333;
+}
