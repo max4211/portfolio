@@ -34,7 +34,7 @@ class Navigation extends React.Component {
                             smooth={true}
                             duration={500}
                             >Contact</Link></li>
-                        <li><a href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
+                        <li><a id="resume-link" href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
                     </ul>
                 </nav>
             </header>

@@ -31,3 +31,17 @@ header nav ul li a:hover {
     transition:         color 1s;
     cursor: pointer;
 }
+
+header nav ul li a#resume-link {
+    text-decoration: none;
+    color: #7ccdf4;
+    border-radius: 10px;
+    border: 2px solid #7ccdf4;
+    padding: 14px 30px;
+}
+
+header nav ul li a#resume-link:hover {
+    transition: 0.8s;
+    border-color: #00a9e2;
+    color: #00a9e2;
+}
