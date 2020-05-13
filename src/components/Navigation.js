@@ -10,31 +10,31 @@ class Navigation extends React.Component {
             <header>
                 <nav>
                     <ul>
-                        <li class="nav-item"><Link
+                        <li className="nav-item"><Link
                             to="about"
                             spy={true}
                             smooth={true}
                             duration={500}
                             >About</Link></li>
-                        <li class="nav-item"><Link
+                        <li className="nav-item"><Link
                             to="experience"
                             spy={true}
                             smooth={true}
                             duration={500}
                             >Experience</Link></li>
-                        <li class="nav-item"><Link
+                        <li className="nav-item"><Link
                             to="work"
                             spy={true}
                             smooth={true}
                             duration={500}
                             >Work</Link></li>
-                        <li class="nav-item"><Link
+                        <li className="nav-item"><Link
                             to="contact"
                             spy={true}
                             smooth={true}
                             duration={500}
                             >Contact</Link></li>
-                        <li><a id="resume-link" href={Resume} target="_blank" rel="noreferrer">Resume</a></li>
+                        <li><a id="resume-link" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                     </ul>
                 </nav>
             </header>

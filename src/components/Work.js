@@ -5,7 +5,7 @@ class Work extends React.Component {
 
     render() {
         return(
-            <div class="work-container" id="work">
+            <div className="work-container" id="work">
                 <h1>Work</h1>
                 <h2>Coming Soon...</h2>
             </div>

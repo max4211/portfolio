@@ -5,7 +5,7 @@ class Welcome extends React.Component {
 
     render() {
         return(
-            <div class="welcome-container" id="welcome">
+            <div className="welcome-container" id="welcome">
                 <h3 id="welcome-header">Hi, my name is</h3>
                 <h1 id="bold-name">Max Smith.</h1>
                 <h2 id="bold-name">I build things.</h2>
