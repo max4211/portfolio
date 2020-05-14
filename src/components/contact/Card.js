@@ -1,5 +1,5 @@
 import React from 'react';
-import Portrait from '../img/portrait.jpg';
+import Portrait from '../../img/portrait.jpg';
 import FontAwesome from 'react-fontawesome';
 import './Card.css';
 
