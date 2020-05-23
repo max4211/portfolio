@@ -1,4 +1,7 @@
-:root {
+@import "normalize.css";
+
+/* BLUE, BLACK, GRAY */
+/* :root {
     --color-1: #23233B;
     --color-2: #2C4268;
     --color-3: #007BBA;
@@ -9,5 +12,36 @@
     --color-8: #B2B0B0;
     --color-9: #C5C6C6;
     --color-10: #EBEBEB;
+} */
 
+/* RED, ORANGE, YELLOW */
+/* :root {
+    --color-1: #03071E;
+    --color-2: #370617;
+    --color-3: #6A040F;
+    --color-4: #9D0208;
+    --color-5: #D00000;
+    --color-6: #DC2F02;
+    --color-7: #E85D04;
+    --color-8: #F48C06;
+    --color-9: #FAA307;
+    --color-10: #FFBA08;
+} */
+
+/* GREENS */
+:root {
+    --color-1: #081C15;
+    --color-2: #081C15;
+    --color-3: #1B4332;
+    --color-4: #2D6A4F;
+    --color-5: #40916C;
+    --color-6: #52B788;
+    --color-7: #74C69D;
+    --color-8: #95D5B2;
+    --color-9: #B7E4C7;
+    --color-10: #D8F3DC;
+}
+
+* {
+    background-color: var(--color-1, #000);
 }
