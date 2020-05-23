@@ -1,3 +1,5 @@
+@import "../default.css";
+
 header {
     width: 100%;
     height: 80px;
@@ -19,11 +21,11 @@ header nav ul li {
 header nav ul li a {
     font-family: sans-serif;
     font-size: 18px;
-    color: #9b9c9b;
+    color: var(--color-7, #9b9c9b);
 }
 
 header nav ul li a:hover {
-    color: #bce3fa;
+    color: var(--color-6, #bce3fa);
     -webkit-transition: color 1s;
     -moz-transition:    color 1s;
     -ms-transition:     color 1s;
@@ -34,14 +36,14 @@ header nav ul li a:hover {
 
 header nav ul li a#resume-link {
     text-decoration: none;
-    color: #7ccdf4;
+    color: var(--color-5, #7ccdf4);
     border-radius: 10px;
-    border: 2px solid #7ccdf4;
+    border: 2px solid var(--color-5, #7ccdf4);
     padding: 14px 30px;
 }
 
 header nav ul li a#resume-link:hover {
     transition: 0.8s;
-    border-color: #00a9e2;
-    color: #00a9e2;
+    border-color: var(--color-4, #00a9e2);
+    color: var(--color-4, #00a9e2);
 }

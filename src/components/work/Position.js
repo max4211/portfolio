@@ -5,7 +5,7 @@ class Position extends React.Component {
 
     render() {
         return(
-            <h1 className="position-name">Software Engineering Intern</h1>
+            <h1 className="position-name">{this.props.value}</h1>
         )
     }
 }

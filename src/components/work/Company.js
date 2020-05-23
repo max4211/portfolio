@@ -5,7 +5,7 @@ class Company extends React.Component {
 
     render() {
         return(
-            <h1 className="company-name">Domusys</h1>
+            <h1 className="company-name">{this.props.value}</h1>
         )
     }
 }

@@ -1,5 +1,7 @@
+@import "../default.css";
+
 p.timeFrame {
     font-family: Monaco, monospace;
-    color: #ebebeb;
+    color: var(--color-10, #ebebeb);
     font-size: 12px;
 }

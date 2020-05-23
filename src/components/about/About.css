@@ -1,12 +1,14 @@
+@import "../default.css";
+
 div .about-container {
     margin-top: 80px;
     margin-left: 80px;
 }
 
 div .about-container h1 {
-    color: #7ccdf4;
+    color: var(--color-5, #7ccdf4);
 }
 
 div .about-container h2 {
-    color: #ebebeb;
+    color: var(--color-10, #ebebeb);
 }
