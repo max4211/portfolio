@@ -3,6 +3,12 @@
 div .about-container {
     margin-top: 80px;
     margin-left: 80px;
+    max-width: 80%;
+    display: flex;
+}
+
+div .about-container div.about-text {
+    display: block;
     max-width: 40%;
 }
 
@@ -37,7 +43,21 @@ div .about-container p a.custom-link:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
+
   div .about-container p a.custom-link:hover:after { 
     width: 100%; 
     left: 0; 
+  }
+
+  div.about-container div.cliffs-photo {
+    position: relative;
+    width: 40%;
+    max-width: 400px;
+    margin-left: 60px;
+  }
+
+  div.about-container div.cliffs-photo img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
   }

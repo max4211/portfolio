@@ -1,0 +1,24 @@
+@import "../../default/default.css";
+
+ul.skills-ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    margin: 20px 0 0;
+    list-style: none;
+}
+
+ul.skills-ul li {
+    position: relative;
+    padding-left: 18px;
+    color: var(--color-8, #ebebeb);
+}
+
+ul.skills-ul li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--color-4, #ebebeb);
+    font-size: 14px;
+    line-height: 12px;
+}
