@@ -1,5 +1,0 @@
-@import "../../default/default.css";
-
-h1.company-name {
-    color: var(--color-3, #007bba);
-}

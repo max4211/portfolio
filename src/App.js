@@ -7,6 +7,7 @@ import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
 import Card from './components/contact/Card';
 import Logo from './components/nav/Logo';
+import RoleTab from './components/experience/RoleTab';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Welcome />
       <About />
       <Experience />
+      <RoleTab/>
       <Work />
       <Contact />
       <Card />

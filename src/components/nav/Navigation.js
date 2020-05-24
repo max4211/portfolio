@@ -7,7 +7,7 @@ class Navigation extends React.Component {
 
     render() {
         return(
-            <div class="menu-sidebar">
+            <div className="menu-sidebar">
                 <header>
                     <nav>
                         <ul>

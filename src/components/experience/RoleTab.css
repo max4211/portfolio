@@ -1,0 +1,43 @@
+@import "../../default/default.css";
+
+div .role-tabs-container {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+div .role-tabs-container ul.role-tabs-ul button {
+    max-width: 100px;
+}
+
+div .role-tabs-container ul.role-tabs-ul button {
+    text-decoration-skip-ink: auto;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    line-height: 42px;
+    height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 0px 20px 2px;
+    border: none;
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+div .role-tabs-container ul.role-tabs-ul button[aria-selected="false"] {
+    color: var(--color-7, #ebebeb);
+    border-left: 2px solid var(--color-7, #ebebeb);
+}
+
+div .role-tabs-container ul.role-tabs-ul button[aria-selected="true"] {
+    color: var(--color-5, #ebebeb);
+    border-left: 2px solid var(--color-5, #ebebeb);
+}
+
+div .role-tabs-container ul.role-tabs-ul button:focus {
+    outline: none;
+    box-shadow: none;
+}

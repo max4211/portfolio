@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
+    "react-aria-tabpanel": "^4.4.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "scroll-js": "^3.2.0"
