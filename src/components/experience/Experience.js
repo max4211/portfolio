@@ -7,7 +7,6 @@ class Experience extends React.Component {
         return(
             <div className="experience-container" id="experience">
                 <h1>Where I've Worked</h1>
-                <h2>Coming Soon...</h2>
             </div>
         )
     }

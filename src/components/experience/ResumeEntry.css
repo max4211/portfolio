@@ -1,0 +1,46 @@
+@import "../../default/default.css";
+
+div.resume-entry-container h3 {
+    color: var(--color-6, #ebebeb);
+}
+
+div.resume-entry-container h3 span {
+    margin-right: 8px;
+}
+
+div.resume-entry-container h3 span.highlight-company{
+    color: var(--color-4, #ebebeb);
+}
+
+div.resume-entry-container h3 span a{
+    text-decoration: none;
+    color: var(--color-4, #ebebeb);
+}
+
+div.resume-entry-container h4.dates {
+    letter-spacing: 0.05em;
+    font-family: "SF Mono", Monaco, monospace;
+    color: var(--color-7, #ebebeb);
+}
+
+div.resume-entry-container div ul {
+    list-style: none;
+}
+
+div.resume-entry-container div ul li {
+    list-style-type: none;
+    display: list-item;
+    position: relative;
+    padding-left: 30px;
+    color: var(--color-7, #ebebeb);
+    margin-bottom: 10px;
+}
+
+div.resume-entry-container div ul li::before { 
+    box-sizing: inherit;
+    content: "▹";
+    position: absolute;
+    padding-left: -30px;
+    color: var(--color-4, #ebebeb);
+}
+

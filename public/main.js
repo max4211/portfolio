@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
     const tabs = document.querySelectorAll('[role="tab"]');
-    const tabList = document.querySelector('[role="tablist"]');
   
     // Add a click event handler to each tab
     tabs.forEach(tab => {

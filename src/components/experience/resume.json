@@ -3,6 +3,7 @@
 
         {
             "name": "Capital One",
+            "hyperlink": "https://www.capitalone.com/",
             "position": "Software Engineer",
             "timeframe": "Summer 2020",
             "bullets": [
@@ -12,6 +13,7 @@
 
         {
             "name": "Domusys",
+            "hyperlink": "#",
             "position": "Software Engineer",
             "timeframe": "Summer 2019",
             "bullets": [
@@ -24,12 +26,37 @@
 
         {
             "name": "Franklin Lab",
+            "hyperlink": "https://franklin.pratt.duke.edu/",
             "position": "Research Assistant",
             "timeframe": "Spring 2019",
             "bullets": [
                 "Printed nanomaterial sensors to improve car safety by detecting tire tread thickness down to a millimeter scale.",
                 "Explored various fabrication schema and conducted research with graduate students to improve nanomaterial sensitivity.",
                 "Delivered final presentation on experimental results and future research topics, placing first in the Spring 2019 Electrical and Computer Engineering Independent Study research competition."
+            ]
+        },
+
+        {
+            "name": "Nicolelis Lab",
+            "hyperlink": "https://www.neuro.duke.edu/research/faculty-labs/nicolelis-lab",
+            "position": "Research Assistant",
+            "timeframe": "Summer 2018",
+            "bullets": [
+                "Investigated neural remapping techniques to develop neuroprosthetics for paraplegics.", 
+                "Implanted electrodes into rat brains and led them through retraining exercises to examine brain remapping capacity.",
+                "Conducted visual discrimination trials and created MATLAB script to streamline data analysis for research publication."
+            ]
+        },
+
+        {
+            "name": "Certify Global",
+            "hyperlink": "https://certifyglobal.com/",
+            "position": "Business Development Intern",
+            "timeframe": "Summers 2015 - 2017",
+            "bullets": [
+                "Managed desktop design project including international sourcing and testing for a company specializing in biometrics.",
+                "Conducted and delivered research on Bluetooth Low Energy applications to streamline various university transactions.",
+                "Oversaw creation of company magazine as Editor-in-Chief, marketing emerging technology to prospective investors."
             ]
         }
 

@@ -1,11 +1,18 @@
 @import "../../default/default.css";
 
 div .role-tabs-container {
+    position: relative;
+    max-width: 80%;
     margin-top: 80px;
     margin-left: 80px;
+    margin-right: 80px;
+    
 }
 
-div .role-tabs-container ul.role-tabs-ul button {
+div .role-tabs-container ul.role-tabs-ul {
+    margin-right: 0;
+    padding: 0px;
+    list-style: none;
     max-width: 100px;
 }
 
@@ -40,4 +47,14 @@ div .role-tabs-container ul.role-tabs-ul button[aria-selected="true"] {
 div .role-tabs-container ul.role-tabs-ul button:focus {
     outline: none;
     box-shadow: none;
+}
+
+div .role-tabs-container div.resume-entry-div:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+div .role-tabs-container div.resume-entry-div {
+    max-width: 600px;
 }
