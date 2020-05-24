@@ -12,10 +12,29 @@ div.resume-entry-container h3 span.highlight-company{
     color: var(--color-4, #ebebeb);
 }
 
-div.resume-entry-container h3 span a{
+a.company-hyperlink {
+    display: inline-block;
     text-decoration: none;
     color: var(--color-4, #ebebeb);
 }
+
+a.company-hyperlink:after { 
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: relative;
+    background: var(--color-4, #7ccdf4);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  a.company-hyperlink:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 div.resume-entry-container h4.dates {
     letter-spacing: 0.05em;

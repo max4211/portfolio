@@ -16,6 +16,7 @@ class ResumeEntry extends React.Component {
                     <span className="highlight-company">
                         @ 
                         <a 
+                            className="company-hyperlink"
                             href={props.hyperlink} 
                             target="_blank noopener noreferrer">
                                 {props.name}
