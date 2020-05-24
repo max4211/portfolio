@@ -1,17 +1,17 @@
 @import "../../default/default.css";
 
 div .role-tabs-container {
+    display: inline-block;
     position: relative;
     max-width: 80%;
-    margin-top: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+    margin-top: 20px;
+    margin-left: 80px; 
 }
 
 div .role-tabs-container ul.role-tabs-ul {
-    margin-right: 0;
+    display: inherit;
     padding: 0px;
+    margin: 0px;
     list-style: none;
     max-width: 100px;
 }
@@ -56,5 +56,9 @@ div .role-tabs-container div.resume-entry-div:focus {
 
 
 div .role-tabs-container div.resume-entry-div {
+    float: right;
     max-width: 600px;
+    padding-top: 0px;
+    padding-left: 30px;
+    
 }
