@@ -1,7 +1,7 @@
 @import "../../default/default.css";
 
 div .about-container {
-    margin-top: 80px;
+    margin-top: 300px;
     margin-left: 80px;
     max-width: 80%;
     display: flex;
@@ -61,3 +61,25 @@ div .about-container p a.custom-link:after {
     height: 400px;
     object-fit: cover;
   }
+
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+      div.about-container {
+        max-width: 900%;
+        margin-left: 10px;
+        display: block;
+      }
+
+      div.about-container div.about-text {
+        display: block;
+        max-width: 100%;
+      }
+
+      div.cliffs-photo {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 20px;
+      }
+    }
