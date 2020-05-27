@@ -2,6 +2,8 @@ import React from 'react';
 import './Navigation.css';
 import { Link } from 'react-scroll';
 import Resume from '../../docs/resume.pdf';
+import Logo from './Logo';;
+
 
 class Navigation extends React.Component {
 
@@ -9,6 +11,7 @@ class Navigation extends React.Component {
         return(
             <div className="menu-sidebar">
                 <header>
+                    <Logo />
                     <nav>
                         <ul>
                             <li className="nav-item"><Link

@@ -1,13 +1,17 @@
 import React from 'react';
 import './Experience.css';
+import RoleTab from './RoleTab';
 
 class Experience extends React.Component {
 
     render() {
         return(
-            <div className="experience-container" id="experience">
-                <h1>Where I've Worked</h1>
-            </div>
+            <section className="experience-container" id="experience">
+                <div className="experience-content">
+                    <h1>Where I've Worked</h1>
+                    <RoleTab/>
+                </div>
+            </section>
         )
     }
 }

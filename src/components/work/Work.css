@@ -1,14 +1,17 @@
 @import "../../default/default.css";
 
 div .work-container {
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 200px;
+    display: inline-block;
 }
 
 div .work-container h1 {
+    font-size: 50px;
     color: var(--color-5, #7ccdf4);
 }
 
-div .work-container h2 {
-    color: var(--color-10, #ebebeb);
+div .project-container {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
 }

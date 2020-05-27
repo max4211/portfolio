@@ -1,14 +1,11 @@
 @import "../../default/default.css";
 
-div .experience-container {
-    margin-top: 80px;
-    margin-left: 80px;
+div .experience-content{
+    width: 100%;
+    margin: 20px auto;
 }
 
-div .experience-container h1 {
+div .experience-content h1 {
+    font-size: 50px;
     color: var(--color-5, #7ccdf4);
-}
-
-div .experience-container h2 {
-    color: var(--color-10, #ebebeb);
 }

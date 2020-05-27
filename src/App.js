@@ -4,23 +4,23 @@ import Navigation from './components/nav/Navigation'
 import About from './components/about/About'
 import Work from './components/work/Work';
 import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
 import Card from './components/contact/Card';
-import Logo from './components/nav/Logo';
-import RoleTab from './components/experience/RoleTab';
+import './App.css';
 
 function App() {
   return (
     <div>
-      <Logo />
-      <Navigation />
-      <Welcome />
-      <About />
-      <Experience />
-      <RoleTab/>
-      <Work />
-      <Contact />
-      <Card />
+      <div id="nav-div">
+        <Navigation />
+      </div>
+      <div id="content">
+        <Welcome />
+        <About />
+        <Experience />
+
+        <Work />
+        <Card />
+      </div>
     </div>
   );
 }

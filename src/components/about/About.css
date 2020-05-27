@@ -1,27 +1,24 @@
 @import "../../default/default.css";
 
 div .about-container {
-    margin-top: 300px;
-    margin-left: 80px;
-    max-width: 80%;
-    display: flex;
+  margin-top: 200px;
+  max-width: 1000px;
+  min-height: 100vh;
 }
 
 div .about-container div.about-text {
-    display: block;
-    max-width: 40%;
+  display: inline-block;
+  max-width: 52%;
 }
 
 div .about-container h1 {
-    color: var(--color-5, #7ccdf4);
-}
-
-div .about-container h2 {
-    color: var(--color-10, #ebebeb);
+  font-size: 50px;
+  color: var(--color-5, #7ccdf4);
 }
 
 div .about-container p {
-    color: var(--color-8, #ebebeb);
+  font-size: 20px;
+  color: var(--color-8, #ebebeb);
 }
 
 div .about-container p a.custom-link {
@@ -50,15 +47,13 @@ div .about-container p a.custom-link:after {
   }
 
   div.about-container div.cliffs-photo {
-    position: relative;
-    width: 40%;
-    max-width: 400px;
-    margin-left: 60px;
+    float: right;
   }
 
   div.about-container div.cliffs-photo img {
-    width: 300px;
-    height: 400px;
+    margin-top: 50px;
+    max-width: 400px;
+    max-height: 450px;
     object-fit: cover;
   }
 

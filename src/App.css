@@ -1,0 +1,9 @@
+div #nav-div {
+    padding: 0 50px;
+}
+
+div #content {
+    padding: 120px 100px;
+    max-width: 1200px;
+    margin: auto;
+}
