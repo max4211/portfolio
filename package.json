@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-aria-tabpanel": "^4.4.0",
@@ -15,6 +16,7 @@
     "react-script-tag": "^1.1.2",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
+    "react-spring": "^8.0.27",
     "scroll-js": "^3.2.0"
   },
   "scripts": {

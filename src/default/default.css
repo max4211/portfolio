@@ -2,3 +2,29 @@
 @import "blue.css";
 /* @import "red.css"; */
 /* @import "green.css"; */
+
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInFromBottom {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(20%);
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0);
+    }
+}

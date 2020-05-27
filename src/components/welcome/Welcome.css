@@ -1,5 +1,9 @@
 @import "../../default/default.css";
 
+section {
+    animation: fadeInFromBottom 1s ease-out 0s 1;
+}
+
 section .welcome-container {
     max-width: 1000px;
     display: flex;
