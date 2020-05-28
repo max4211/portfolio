@@ -32,7 +32,6 @@ class App extends React.Component {
           <Welcome />
           <About />
           <Experience />
-
           <Work />
           <Contact />
         </div>

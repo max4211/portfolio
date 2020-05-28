@@ -29,6 +29,7 @@ ul.social-icons li a {
     text-decoration: none;
     border-radius: 50%;
     transition: 0.5s;
+    font-size: 24px;
 }
 
 ul.social-icons li a {

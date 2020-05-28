@@ -75,6 +75,7 @@ div .role-tabs-container {
 div .role-tabs-container ul.role-tabs-ul {
     display: flex;
     overflow-x: scroll;
+    overflow: visible;
     margin-bottom: 20px;
     position: relative;
     list-style: none;

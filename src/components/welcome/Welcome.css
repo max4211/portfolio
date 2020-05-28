@@ -1,7 +1,7 @@
 @import "../../default/default.css";
 
 section {
-    animation: fadeInFromBottom 1s ease-out 0s 1;
+    animation: fadeInFromBottom 2s ease-out 0s 1;
 }
 
 section .welcome-container {

@@ -1,0 +1,18 @@
+@import "../../default/default.css";
+
+div.loader-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-1, #23233B);
+}
+
+div.loader-container img.loader {
+    animation: loader 2s infinite ease;
+    margin: auto;
+    top: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
