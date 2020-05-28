@@ -5,24 +5,40 @@ import About from './components/about/About'
 import Work from './components/work/Work';
 import Experience from './components/experience/Experience';
 import Card from './components/contact/Card';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <div id="nav-div">
-        <Navigation />
-      </div>
-      <div id="content">
-        <Welcome />
-        <About />
-        <Experience />
+class App extends React.Component {
 
-        <Work />
-        <Card />
+
+  componentDidMount() {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }
+
+  render() {
+
+    return (
+      <div>
+        <div id="nav-div">
+          <Navigation />
+        </div>
+        <div id="content">
+          <Welcome />
+          <About />
+          <Experience />
+
+          <Work />
+          <Card />
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

@@ -23,7 +23,7 @@ class Work extends React.Component {
 
 
         return(
-            <div className="work-container" id="work">
+            <div className="work-container" id="work" data-aos="fade-up">
                 <h1>Some Things I've Built</h1>
                 <div className="project-container">
                     <Project data={poker}></Project>
