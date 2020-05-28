@@ -1,15 +1,42 @@
 @import "../../default/default.css";
 
-div .contact-container {
-    margin-top: 80px;
-    margin-bottom: 250px;
-    margin-left: 80px;
+
+div.contact-container {
+    animation: fadeIn 1.5s ease-in 0s 1;
+    position: fixed;
+    width: 48px;
+    bottom: 0px;
+    left: 40px;
 }
 
-div .contact-container h1 {
-    color: var(--color-5, #7ccdf4);
+ul.social-icons {
+    list-style: none;
+    padding: 10px 0;
+    align-items: center;
 }
 
-div .contact-container h2 {
-    color: var(--color-10, #ebebeb);
+ul.social-icons li {
+    padding-top: 20px;
+}
+
+ul.social-icons li a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+ul.social-icons li a {
+    line-height: 48px;
+    margin: 0px 5px;
+}
+
+ul.social-icons li a:hover {
+    background: var(--color-4, #00a9e2);
+
 }

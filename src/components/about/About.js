@@ -8,7 +8,7 @@ class About extends React.Component {
     render() {
         return(
             <div className="about-container" id="about"
-                            data-aos='fade-up'>
+                            data-aos="fade-up">
                 <div className="about-text">
                     <h1>About Me</h1>
                     <p>Hello! I'm Max, a software engineer based in Potomac, MD.</p>

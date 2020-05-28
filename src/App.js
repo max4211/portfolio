@@ -4,7 +4,7 @@ import Navigation from './components/nav/Navigation'
 import About from './components/about/About'
 import Work from './components/work/Work';
 import Experience from './components/experience/Experience';
-import Card from './components/contact/Card';
+import Contact from './components/contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -34,7 +34,7 @@ class App extends React.Component {
           <Experience />
 
           <Work />
-          <Card />
+          <Contact />
         </div>
       </div>
     );
