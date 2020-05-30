@@ -21,6 +21,7 @@ header nav ul li {
 header nav ul li a {
     font-family: sans-serif;
     font-size: 18px;
+    font-size: 1.8vw;
     color: var(--color-7, #9b9c9b);
 }
 
