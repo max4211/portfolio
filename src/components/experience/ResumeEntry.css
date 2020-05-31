@@ -78,5 +78,10 @@ div.resume-entry-container div ul li::before {
     span.highlight-company {
         display: block;
     }
+
+    div.role-tabs-container div.resume-entry-div {
+        float: left;
+        padding-left: 5px;
+    }
 }
 

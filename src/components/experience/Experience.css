@@ -1,6 +1,6 @@
 @import "../../default/default.css";
 
-div .experience-content{
+div .experience-content {
     width: 100%;
     margin: 20px auto;
 }
@@ -8,4 +8,14 @@ div .experience-content{
 div .experience-content h1 {
     font-size: 50px;
     color: var(--color-5, #7ccdf4);
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) {
+
+    div .experience-content {
+        margin-top: 400px;
+    }
+
 }

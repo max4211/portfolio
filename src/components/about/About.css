@@ -72,8 +72,9 @@ div .about-container p a.custom-link:after {
       }
 
       div.cliffs-photo {
+        position: relative;
         display: block;
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
         margin-top: 20px;
       }
