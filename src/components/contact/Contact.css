@@ -39,5 +39,26 @@ ul.social-icons li a {
 
 ul.social-icons li a:hover {
     background: var(--color-4, #00a9e2);
-
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+        div.contact-container {
+            position: relative;
+            bottom: 20px;
+            margin: 20px auto;
+            height: 50px;
+            width: 100vw;
+        }
+
+        ul.social-icons {
+            display: block;
+            margin: auto;
+        }
+
+        ul.social-icons li {
+            display: inline-block;
+            /* float: left; */
+        }
+    }

@@ -15,3 +15,11 @@ div .project-container {
     display: flex;
     flex-direction: row;
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+        div .project-container {
+            display: block;
+        }
+    }

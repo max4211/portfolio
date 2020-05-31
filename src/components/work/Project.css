@@ -106,5 +106,15 @@
 
 .project-links a:hover {
     background: var(--color-4, #00a9e2);
-
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+        .project {
+            display: block;
+            left: 50%;
+            max-width: 90%;
+        }
+
+    }

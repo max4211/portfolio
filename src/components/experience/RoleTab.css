@@ -67,33 +67,29 @@ div .role-tabs-container div.resume-entry-div {
 
 div .role-tabs-container {
     display: block;
-    align-items: flex-start;
-    position: relative;
-    width: 100%;
 }
 
 div .role-tabs-container ul.role-tabs-ul {
+    width: calc(100% + 70px);
+    margin-left: -15px;
     display: flex;
+    overflow: auto;
+    max-width: 100vw;
     overflow-x: scroll;
-    overflow: visible;
     margin-bottom: 20px;
-    position: relative;
     list-style: none;
-    width: 100%;
-    margin-left: -25px;
-}
 
-div .role-tabs-container ul.role-tabs-ul button {
-    border: none;
 }
 
 div .role-tabs-container ul.role-tabs-ul button[aria-selected="false"] {
     color: var(--color-7, #ebebeb);
+    border: none;
     border-bottom: 2px solid var(--color-7, #ebebeb);
 }
 
 div .role-tabs-container ul.role-tabs-ul button[aria-selected="true"] {
     color: var(--color-5, #ebebeb);
+    border: none;
     border-bottom: 2px solid var(--color-5, #ebebeb);
 }
 
