@@ -67,7 +67,7 @@ a.menu-icon, div.btn-toggle-nav {
         .nav-main {
             position: fixed;
             right: 0;
-            height: 100vh;
+            max-height: 100px;
             padding: 0 5px;
             z-index: 1000;
             transition: all 0.3s ease-in-out;
@@ -98,8 +98,10 @@ a.menu-icon, div.btn-toggle-nav {
             transition: all 0.3s ease-in-out;
         }
 
-        .btn-toggle-nav:hover {
-            opacity: 0.5;
+        div.btn-toggle-nav .fa-bars:hover {
+            opacity: 0.1;
+            transition: all 0.3s ease-in-out;
+            
         }
 
     }

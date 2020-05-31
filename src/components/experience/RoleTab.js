@@ -75,7 +75,7 @@ class RoleTab extends React.Component {
                     role="tabpanel" 
                     tabIndex="-1" 
                     aria-labelledby="tab-2"
-                    hidden="true">
+                    hidden={true}>
                     <ResumeEntry props={domusys} />
                 </div>
                 <div 
@@ -84,7 +84,7 @@ class RoleTab extends React.Component {
                     role="tabpanel" 
                     tabIndex="-1" 
                     aria-labelledby="tab-3"
-                    hidden="true">
+                    hidden={true}>
                     <ResumeEntry props={franklinLab} />
                 </div>
                 <div 
@@ -93,7 +93,7 @@ class RoleTab extends React.Component {
                     role="tabpanel" 
                     tabIndex="-1" 
                     aria-labelledby="tab-4"
-                    hidden="true">
+                    hidden={true}>
                     <ResumeEntry props={nicolelisLab} />
                 </div>
                 <div 
@@ -102,7 +102,7 @@ class RoleTab extends React.Component {
                     role="tabpanel" 
                     tabIndex="-1" 
                     aria-labelledby="tab-5"
-                    hidden="true">
+                    hidden={true}>
                     <ResumeEntry props={certify} />
                 </div>
             </div>

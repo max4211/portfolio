@@ -70,3 +70,13 @@ div.resume-entry-container div ul li::before {
     color: var(--color-4, #ebebeb);
 }
 
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+
+
+    span.highlight-company {
+        display: block;
+    }
+}
+

@@ -78,7 +78,6 @@ div .role-tabs-container ul.role-tabs-ul {
     overflow-x: scroll;
     margin-bottom: 20px;
     list-style: none;
-
 }
 
 div .role-tabs-container ul.role-tabs-ul button[aria-selected="false"] {
