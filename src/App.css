@@ -21,6 +21,10 @@ div #content {
     div #nav-div {
         padding: 0 15px;
     }
+
+    html, body {
+        overflow-x: hidden;
+    }
         
 
     }
