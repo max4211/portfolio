@@ -67,8 +67,9 @@ a.menu-icon, div.btn-toggle-nav {
 
         .nav-main {
             position: fixed;
-            right: 0;
+            left: 0;
             max-height: 100px;
+            max-width: 80%;
             padding: 0 5px;
             z-index: 1000;
             transition: all 0.3s ease-in-out;
@@ -80,29 +81,5 @@ a.menu-icon, div.btn-toggle-nav {
             visibility: hidden;
         }
         
-        .nav-main ul li {
-            line-height: 60px;
-            list-style: none;
-        }
-        
-        .nav-main ul li span, .nav-main ul li a {
-            display: block;
-            height: 60px;
-            padding: 0 10px;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #fff;
-            font-family: arial;
-            font-size: 16px;
-            white-space: nowrap;
-            opacity: 0;
-            transition: all 0.3s ease-in-out;
-        }
-
-        div.btn-toggle-nav .fa-bars:hover {
-            opacity: 0.1;
-            transition: all 0.3s ease-in-out;
-            
-        }
 
     }
