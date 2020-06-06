@@ -12,7 +12,8 @@ class Navigation extends React.Component {
 
         let toggleNavStatus = false;
 
-        let toggleNav = function() {
+        function toggleNav() {
+            console.log('running toggleNav, clicked on button');
             /* Get all HTML elements we want to change styling of */
             let getSidebar = document.querySelector(".nav-main");
             let getSidebarUl = document.querySelector(".nav-main ul");

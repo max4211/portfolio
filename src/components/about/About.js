@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import cliffsImg from '../../img/cliffs.jpg';
+import cliffsImg from '../../img/max_4.jpg';
 import Skills from './Skills';
 
 class About extends React.Component {
