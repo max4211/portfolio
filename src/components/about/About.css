@@ -62,20 +62,25 @@ div .about-container p a.custom-link:after {
     and (max-device-width: 812px) {
       div.about-container {
         max-width: 900%;
-        margin-left: 10px;
         display: block;
       }
 
       div.about-container div.about-text {
         display: block;
-        max-width: 100%;
+        max-width: 90%;
       }
 
-      div.cliffs-photo {
+      div.about-container div.cliffs-photo {
+        left: -15%;
         position: relative;
         display: block;
-        max-width: 90%;
+        max-width: 80%;
         margin: auto;
-        margin-top: 20px;
+      }
+
+      div.cliffs-photo img {
+        max-width: 75%;
+        max-height: 200px;
+        margin: 0;
       }
     }
