@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import Resume from '../../docs/resume.pdf';
 import Logo from './Logo';
 import FontAwesome from 'react-fontawesome';
+import $ from 'jquery';
 
 
 class Navigation extends React.Component {
@@ -11,6 +12,11 @@ class Navigation extends React.Component {
     render() {
 
         let toggleNavStatus = false;
+
+        function toggleHamburger() {
+            console.log("toggling hamburger function");
+            $(".icon").toggleClass("close");
+        }
 
         function toggleNav() {
             console.log('running toggleNav, clicked on button');
@@ -45,8 +51,13 @@ class Navigation extends React.Component {
             <div className="menu-sidebar">
                 <header>
                     <Logo />
-                    <div className="btn-toggle-nav" onClick={toggleNav}>
-                        <FontAwesome className="fa fa-bars" aria-hidden="true"/></div>
+                    <div className="btn-toggle-nav" id="btn-wrapper" onClick={toggleNav}>
+                        <div className="circle icon" onClick={toggleHamburger}>
+                            <span className="line top"></span>
+                            <span className="line middle"></span>
+                            <span className="line bottom"></span>
+                        </div>
+                        {/* <FontAwesome className="fa fa-bars" aria-hidden="true"/> */} </div>
                     <nav className="nav-main">
                         <ul>
                             <li className="nav-item active"><Link

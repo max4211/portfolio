@@ -65,6 +65,37 @@ a.menu-icon, div.btn-toggle-nav {
             z-index: 1000;
         }
 
+        .circle {
+            height: 48px;
+            width: 48px;
+            position:relative;
+        }
+        .line {
+            position: absolute;
+            height: 5px;
+            width:95%;
+            background:var(--color-5, #7CCDF4);
+            border-radius:8px;
+            transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+        }
+        .top {
+            top:18%;
+        }
+        .middle {
+            top:48%;
+        }
+        .bottom {
+            top:78%;
+        }
+        .icon.close .top {
+            transform:rotate(45deg);
+            top:48%;
+        }
+        .icon.close .middle, .icon.close .bottom {
+            transform:rotate(-45deg);
+            top:48%;
+        }
+
         .nav-main {
             position: fixed;
             left: 0;
@@ -74,12 +105,19 @@ a.menu-icon, div.btn-toggle-nav {
             z-index: 1000;
             transition: all 0.3s ease-in-out;
         }
+
+        .nav-main ul li {
+            display: block;
+            width: 100%;
+        }
+        
         
         .nav-main ul {
             padding-top: 15px;
             overflow: hidden;
             visibility: hidden;
         }
-        
+
+
 
     }
