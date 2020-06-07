@@ -20,9 +20,9 @@ class Navigation extends React.Component {
         function selectedItem() {
             $(".icon").toggleClass("close");
             let getSidebar = document.querySelector(".nav-main");
+            // getSidebar.style.display = "none";
             getSidebar.style.right = "-75vw";
             toggleNavStatus = false;
-            // getSidebar.style.display = "none";
 
         }
 
@@ -32,13 +32,15 @@ class Navigation extends React.Component {
         
             /* Check toggle nav status */
             if (toggleNavStatus === false) {
-                getSidebar.style.right = "0";
                 // getSidebar.style.display = "block";
+
+                getSidebar.style.right = "0";
         
                 toggleNavStatus = true;
             } else if (toggleNavStatus === true) {
-                getSidebar.style.right = "-75vw";
                 // getSidebar.style.display = "none";
+
+                getSidebar.style.right = "-75vw";
         
                 toggleNavStatus = false;
             }
@@ -54,7 +56,7 @@ class Navigation extends React.Component {
                             <span className="line middle"></span>
                             <span className="line bottom"></span>
                         </div>
-                        {/* <FontAwesome className="fa fa-bars" aria-hidden="true"/> */} </div>
+                        </div>
                     <nav className="nav-main">
                         <ul>
                             <li className="nav-item active"><Link
