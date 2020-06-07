@@ -7,11 +7,11 @@ class Skills extends React.Component {
         return(
             <ul className="skills-ul">
                 <li>Java</li>
-                <li>Python</li>
-                <li>MATLAB</li>
-                <li>HTML & CSS</li>
-                <li>React</li>
                 <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>MATLAB</li>
+                <li>React</li>
             </ul>
         )
     }
