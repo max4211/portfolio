@@ -18,4 +18,8 @@ and (max-device-width: 812px) {
         margin-top: 400px;
     }
 
+    div .experience-content h1 {
+        font-size: 34px;
+      }
+
 }

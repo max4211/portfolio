@@ -24,4 +24,8 @@ div .project-container {
             margin-left: 0;
             margin-right: 0;
         }
+
+        div .work-container h1 {
+            font-size: 30px;
+          }
     }

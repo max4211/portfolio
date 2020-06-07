@@ -3,7 +3,6 @@ import './Navigation.css';
 import { Link } from 'react-scroll';
 import Resume from '../../docs/resume.pdf';
 import Logo from './Logo';
-import FontAwesome from 'react-fontawesome';
 import $ from 'jquery';
 
 
@@ -65,27 +64,31 @@ class Navigation extends React.Component {
                                 smooth={true}
                                 duration={500}
                                 onClick={selectedItem}
+                                offset={-50}
                                 >About</Link></li>
                             <li className="nav-item active"><Link
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={600}
                                 onClick={selectedItem}
+                                offset={-140}
                                 >Experience</Link></li>
                             <li className="nav-item active"><Link
                                 to="work"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={800}
                                 onClick={selectedItem}
+                                offset={-100}
                                 >Work</Link></li>
                             <li className="nav-item active"><Link
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={1000}
                                 onClick={selectedItem}
+                                offset={-200}
                                 >Contact</Link></li>
                             <li className="active"><a id="resume-link" href={Resume} target="_blank" rel="noopener noreferrer" onClick={selectedItem}>Resume</a></li>
                         </ul>

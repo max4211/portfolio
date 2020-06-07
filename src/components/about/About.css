@@ -83,4 +83,8 @@ div .about-container p a.custom-link:after {
         max-height: 200px;
         margin: 0;
       }
+
+      div .about-container h1 {
+        font-size: 34px;
+      }
     }
