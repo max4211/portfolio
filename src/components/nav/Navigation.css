@@ -103,7 +103,8 @@ a.menu-icon, div.btn-toggle-nav {
         }
 
         .nav-main {
-            /* display: none; */
+            display: none;
+            visibility: hidden;
             position: absolute;
             background-color: var(--color-2, #007BBA);
             right: -75vw;

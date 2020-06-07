@@ -19,7 +19,8 @@ class Navigation extends React.Component {
         function selectedItem() {
             $(".icon").toggleClass("close");
             let getSidebar = document.querySelector(".nav-main");
-            // getSidebar.style.display = "none";
+            getSidebar.style.display = "none";
+            getSidebar.style.visibility = "hidden";
             getSidebar.style.right = "-75vw";
             toggleNavStatus = false;
 
@@ -31,14 +32,14 @@ class Navigation extends React.Component {
         
             /* Check toggle nav status */
             if (toggleNavStatus === false) {
-                // getSidebar.style.display = "block";
-
+                getSidebar.style.display = "block";
+                getSidebar.style.visibility = "visible";
                 getSidebar.style.right = "0";
         
                 toggleNavStatus = true;
             } else if (toggleNavStatus === true) {
-                // getSidebar.style.display = "none";
-
+                getSidebar.style.display = "none";
+                getSidebar.style.visibility = "hidden";
                 getSidebar.style.right = "-75vw";
         
                 toggleNavStatus = false;
