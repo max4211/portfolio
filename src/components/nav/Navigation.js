@@ -71,20 +71,23 @@ class Navigation extends React.Component {
                                 spy={true}
                                 smooth={true}
                                 duration={500}
+                                onClick={selectedItem}
                                 >Experience</Link></li>
                             <li className="nav-item active"><Link
                                 to="work"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
+                                onClick={selectedItem}
                                 >Work</Link></li>
                             <li className="nav-item active"><Link
                                 to="contact"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
+                                onClick={selectedItem}
                                 >Contact</Link></li>
-                            <li className="active"><a id="resume-link" href={Resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
+                            <li className="active"><a id="resume-link" href={Resume} target="_blank" rel="noopener noreferrer" onClick={selectedItem}>Resume</a></li>
                         </ul>
                     </nav>
                 </header>
