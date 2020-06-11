@@ -1,13 +1,14 @@
-/* GREENS */
+/* LIGHT */
 :root {
-    --color-1: #081C15;
-    --color-2: #081C15;
-    --color-3: #1B4332;
-    --color-4: #2D6A4F;
-    --color-5: #40916C;
-    --color-6: #52B788;
-    --color-7: #74C69D;
-    --color-8: #95D5B2;
-    --color-9: #B7E4C7;
-    --color-10: #D8F3DC;
+    --color-1: #f8f9faff;
+    --color-2: #e9ecefff;
+    --color-3: #dee2e6ff;
+    --color-4: #ced4daff;
+    --color-5: #adb5bdff;
+    --color-6: #6c757dff;
+    --color-7: #495057ff;
+    --color-8: #343a40ff;
+    --color-9: #212529ff;
+    --color-10: #212529ff;
+
 }

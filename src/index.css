@@ -1,5 +1,7 @@
+@import './default/default.css';
+
 html {
-  background-color: #23233b;
+  background-color: var(--color-1, #23233b);
 }
 
 body {
