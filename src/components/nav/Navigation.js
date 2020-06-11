@@ -3,6 +3,7 @@ import './Navigation.css';
 import { Link } from 'react-scroll';
 import Resume from '../../docs/resume.pdf';
 import Logo from './Logo';
+import Toggle from './Toggle';
 import $ from 'jquery';
 
 
@@ -50,6 +51,7 @@ class Navigation extends React.Component {
             <div className="menu-sidebar">
                 <header>
                     <Logo />
+                    <Toggle />
                     <div className="btn-toggle-nav" id="btn-wrapper" onClick={toggleNav}>
                         <div className="circle icon" onClick={toggleHamburger}>
                             <span className="line top"></span>
