@@ -1,11 +1,11 @@
 import React from 'react';
-import Welcome from './components/welcome/Welcome'
-import Navigation from './components/nav/Navigation'
-import About from './components/about/About'
+import Welcome from './components/welcome/Welcome';
+import Navigation from './components/nav/Navigation';
+import About from './components/about/About';
 import Work from './components/work/Work';
 import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
-import Toggle from './components/nav/Toggle';
+import Email from './components/contact/Email';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -35,6 +35,7 @@ class App extends React.Component {
           <Experience />
           <Work />
           <Contact />
+          <Email />
         </div>
       </div>
     );

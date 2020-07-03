@@ -57,10 +57,14 @@ a.menu-icon, div.btn-toggle-nav {
     and (min-device-width: 375px) 
     and (max-device-width: 812px) {
 
-        /* div#nav-div {
-            height: 60px;
-            box-shadow: 0px 4px 5px -2px; 
-        } */
+
+        div.btn-toggle-nav {
+            display: inline-block;
+            color: var(--color-5, #7ccdf4);
+            float: right;
+            font-size: 40px;
+            z-index: 3000;
+        }
 
         div.btn-toggle-nav {
             display: inline-block;

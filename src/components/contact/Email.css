@@ -1,0 +1,42 @@
+@import "../../default/default.css";
+
+div.full-email-div {
+    width: 48px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+}
+
+div.email-container {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+}
+
+a.full-email-link {
+    writing-mode: vertical-lr;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    
+    color: var(--color-9, #1b1b1b);
+    font-size: 20px;
+}
+
+a.full-email-link:hover {
+    transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    color: var(--color-5, #1b1b1b);
+    transform: translateY(-3px);
+}
+
+/* a.full-email-link::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: var(--color-10, #1e2b3f);
+    margin: 0px auto;
+} */

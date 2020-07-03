@@ -69,6 +69,7 @@ input:checked[type="checkbox"]:after {
     and (min-device-width: 375px) 
     and (max-device-width: 812px) {
         div.toggle-center {
+            float: left;
             display: none;
         }
     }

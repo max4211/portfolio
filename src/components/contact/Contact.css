@@ -3,11 +3,18 @@
 
 div.contact-container {
     animation: fadeIn 1.5s ease-in 0s 1;
-    position: fixed;
-    width: 48px;
-    bottom: 0px;
-    left: 40px;
+    width: 100vw;
 }
+
+div.social-icon-div {
+    position: fixed;
+    bottom: 50px;
+    width: 48px;
+    left: 40px;
+    right: auto;
+}
+
+
 
 ul.social-icons {
     list-style: none;
