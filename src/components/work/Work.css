@@ -12,8 +12,6 @@ div .work-container h1 {
 
 div .project-container {
     margin-top: 300px;
-    display: flex;
-    flex-direction: row;
 }
 
 @media only screen 

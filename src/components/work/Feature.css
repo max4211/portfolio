@@ -1,0 +1,63 @@
+@import "../../default/default.css";
+
+div.feature {
+    width: 90%;
+    max-width: 1100px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: block;
+}
+
+div.sub-feature {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+div.sub-feature div {
+    display: inline-block;
+    max-width: 50%;
+}
+
+div.feature-left a img {
+    max-width: 80%;
+}
+
+div.feature-right {
+    text-align: right;
+    display: inline-block;
+    max-width: 50%;
+    top: 0;
+}
+
+div.feature-right h3 {
+    font-size: 13px;
+    font-family: "SF Mono", Monaco, monospace;
+    margin-top: 10px;
+    color: var(--color-4, #1b1b1b);
+}
+
+div.feature-right h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 10px;
+    color: var(--color-5, #1b1b1b);
+}
+
+div.feature-right div.feature-p {
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(23, 42, 69);
+    color: rgb(168, 178, 209);
+    font-size: 18px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+div.feature-right div.feature-p p {
+    color: var(--color-6, #1b1b1b);
+    z-index: 2;
+    font-size: 18px;
+}
