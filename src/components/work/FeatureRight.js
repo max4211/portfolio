@@ -1,16 +1,8 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
-import './Feature.css';
+import './FeatureRight.css';
 
-class Feature extends React.Component {
-
-    componendDidMount() {
-        if (this.props.data.align === "left") {
-            console.log("found an align left for feature" + this.props.data.projectName);
-            let getFeatureText = document.querySelector(".feature-txt");
-            getFeatureText.style.textAlign = "left";
-        }
-    }
+class FeatureRight extends React.Component {
     
     render() {
 
@@ -19,14 +11,14 @@ class Feature extends React.Component {
 
         return(
 
-            <div className="feature">
+            <div className="feature-right">
                 <div className="sub-feature">
                     <div className="feature-img">
                         <a href={props.github} target="_blank" rel="noopener noreferrer">
                             <img src={props.img} alt={props.alt}></img>
                         </a>
                     </div>
-                    <div className="feature-txt">
+                    <div className="feature-txt-right">
                         <h3>Featured Project</h3>
                         <h2>{props.projectName}</h2>
                         <div className="feature-p">
@@ -41,4 +33,4 @@ class Feature extends React.Component {
     }
 }
 
-export default Feature;
+export default FeatureRight;

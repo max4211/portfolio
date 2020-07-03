@@ -1,6 +1,6 @@
 @import "../../default/default.css";
 
-div.feature {
+div.feature-left {
     width: 90%;
     max-width: 1100px;
     padding-bottom: 20px;
@@ -14,27 +14,27 @@ div.sub-feature {
     align-items: center;
 }
 
-div.sub-feature div {
+div.feature-img, div.feature-txt {
     display: inline-block;
     max-width: 50%;
 }
 
-div.sub-feature div a img {
+div.feature-img img{
     max-width: 80%;
 }
 
 div.feature-txt {
-    text-align: right;
+    text-align: left;
 }
 
-div.sub-feature div h3 {
+div.feature-txt h3 {
     font-size: 13px;
     font-family: "SF Mono", Monaco, monospace;
     margin-top: 10px;
     color: var(--color-4, #1b1b1b);
 }
 
-div.sub-feature div h2 {
+div.feature-txt h2 {
     font-weight: 700;
     font-size: 32px;
     margin-top: 10px;

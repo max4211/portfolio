@@ -5,8 +5,9 @@ import assemblerImg from '../../img/assembler.JPG';
 import breakoutImg from '../../img/breakout.JPG';
 import simulationImg from '../../img/simulation.JPG';
 
-import Project from './Project';
-import Feature from './Feature';
+import FeatureRight from './FeatureRight';
+import FeatureLeft from './FeatureLeft';
+
 
 class Work extends React.Component {
 
@@ -49,13 +50,14 @@ class Work extends React.Component {
 
 
         return(
+
             <div className="work-container" id="work" data-aos="fade-up">
                 <h1>Some Things I've Built</h1>
                 <div className="project-container">
-                    <Feature data={poker}></Feature>
-                    <Feature data={assembler}></Feature>
-                    <Feature data={breakout}></Feature>
-                    <Feature data={simulation}></Feature>
+                    <FeatureRight data={poker}></FeatureRight>
+                    <FeatureLeft data={assembler}></FeatureLeft>
+                    <FeatureRight data={breakout}></FeatureRight>
+                    <FeatureLeft data={simulation}></FeatureLeft>
 
                 </div>
             </div>
