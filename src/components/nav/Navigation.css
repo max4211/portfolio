@@ -35,6 +35,10 @@ header nav ul li a:hover {
     cursor: pointer;
 }
 
+li.nav-item {
+    display: none;
+}
+
 header nav ul li a#resume-link {
     text-decoration: none;
     color: var(--color-5, #7ccdf4);

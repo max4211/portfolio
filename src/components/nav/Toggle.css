@@ -2,7 +2,7 @@
 
 div.toggle-center {
     position: relative;
-    float: left;
+    float: right;
     transform: translate(-50%, -50%);
     margin: 35px 80px;
 }
