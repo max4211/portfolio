@@ -24,6 +24,9 @@ class FeatureRight extends React.Component {
                         <div className="feature-p">
                             <p>{props.description}</p>
                         </div>
+                        <a href={props.github} target="_blank" rel="noopener noreferrer">
+                            <FontAwesome className="fa fa-github"/>
+                        </a>
                     </div>
                 </div>
             </div>

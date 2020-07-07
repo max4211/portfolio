@@ -2,7 +2,7 @@
 
 
 div.contact-container {
-    animation: fadeIn 1.5s ease-in 0s 1;
+    animation: fadeIn 2.5s ease-in 0s 1;
     width: 100vw;
 }
 
@@ -68,5 +68,9 @@ ul.social-icons li a:hover {
         ul.social-icons li {
             display: inline-block;
             /* float: left; */
+        }
+
+        div.contact-container {
+            display: none;
         }
     }

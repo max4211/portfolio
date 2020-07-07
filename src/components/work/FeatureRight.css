@@ -23,8 +23,35 @@ div.feature-img img{
     max-width: 80%;
 }
 
+/* div.feature-img {
+    background-color: var(--color-5, #1b1b1b);
+    opacity: 0.2;
+} */
+
 div.feature-txt-right {
     text-align: right;
+}
+
+div.feature-txt-right a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    font-size: 24px;
+}
+
+div.feature-txt-right a {
+    line-height: 48px;
+    margin: 0px 5px;
+}
+
+div.feature-txt-right a:hover {
+    background: var(--color-4, #00a9e2);
 }
 
 div.feature-txt-right h3 {

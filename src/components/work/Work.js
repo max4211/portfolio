@@ -13,16 +13,16 @@ class Work extends React.Component {
 
     render() {
         let poker = {
-            "projectName": "Casino Game Engine",
+            "projectName": "Card Game Engine",
             "img" : pokerImg,
             "alt" : "texas holdem poker table",
-            "description" : "A game engine designed to construct permutations of card games from sole configureation of XML files.",
+            "description" : "A game engine designed to construct permutations of casino card games from sole configureation of XML files.",
             "github" : "https://github.com/max4211/casino-engine", 
             "align" : "right",
         }
 
         let assembler = {
-            "projectName": "Modular Assembler",
+            "projectName": "Assembler",
             "img" : assemblerImg,
             "alt" : "assembler input screen",
             "description" : "A modular assembler to translate binary instructions to target base and file type.",
@@ -34,16 +34,16 @@ class Work extends React.Component {
             "projectName": "Breakout Game",
             "img" : breakoutImg,
             "alt" : "breakout gameplay",
-            "description" : "A JavaFX implementation of Brickbreaker.",
+            "description" : "A JavaFX implementation of the classic Brickbreaker game with infinite levels and powerups.",
             "github" : "https://github.com/max4211/breakout_game", 
             "align" : "right",
         }
         
         let simulation = {
-            "projectName": "Cellular Automata Simulation",
+            "projectName": "Cellular Automata",
             "img" : simulationImg,
             "alt" : "simulation fire sim",
-            "description" : "A JavaFX Cellular Automata simulation.",
+            "description" : "A Cellular Automata simulation with GUI composed of cell grid and transient map of population density.",
             "github" : "https://github.com/max4211/simulation", 
             "align" : "left",
         }
