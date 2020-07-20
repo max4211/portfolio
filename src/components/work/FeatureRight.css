@@ -86,3 +86,24 @@ div.feature-p p {
     z-index: 2;
     font-size: 18px;
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+        div.sub-feature {
+            position: relative;
+            align-items: center;
+        }
+        
+        div.feature-img, div.feature-txt {
+            position: relative;
+            max-width: 90%;
+        }
+        
+        div.feature-img img{
+            position: absolute;
+            max-width: 100%;
+            opacity: 0.8;
+        }
+
+    }

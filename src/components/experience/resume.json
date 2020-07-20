@@ -7,7 +7,11 @@
             "position": "Software Engineer",
             "timeframe": "Summer 2020",
             "bullets": [
-                "Coming soon 😊"
+                "Performed in DevOps team, implemented serverless deployment of rule validation platform on AWS Fargate.",
+                "Demoed proof of concept to leadership highlighting improvements to cost, security, and efficiency.",
+             	"Placed first in line of business hackathon for performance test validation project, saving engineers days of time.",
+             	"Volunteered with Capital One Coders to educate underprivileged students on building Markov chain bots with Python."
+                
             ]
         },
 
