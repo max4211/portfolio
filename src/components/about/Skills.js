@@ -12,6 +12,9 @@ class Skills extends React.Component {
                 <li>HTML & CSS</li>
                 <li>MATLAB</li>
                 <li>React</li>
+                <li>Docker</li>
+                <li>SpringBoot</li>
+                <li>AWS</li>
             </ul>
         )
     }
