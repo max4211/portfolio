@@ -16,7 +16,7 @@ class Work extends React.Component {
             "projectName": "Card Game Engine",
             "img" : pokerImg,
             "alt" : "texas holdem poker table",
-            "description" : "A game engine designed to construct permutations of casino card games from sole configureation of XML files.",
+            "description" : "A game engine designed to construct permutations of casino card games from sole configuration of XML files.",
             "github" : "https://github.com/max4211/casino-engine", 
             "align" : "right",
         }
