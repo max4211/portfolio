@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import { Link } from 'react-scroll';
-import Resume from '../../docs/resume.pdf';
+import ResumePDF from '../../docs/resume.pdf';
 import Logo from './Logo';
 import Toggle from './Toggle';
 import $ from 'jquery';
@@ -24,7 +24,6 @@ class Navigation extends React.Component {
             getSidebar.style.visibility = "hidden";
             getSidebar.style.right = "-75vw";
             toggleNavStatus = false;
-
         }
 
         function toggleNav() {
@@ -93,7 +92,7 @@ class Navigation extends React.Component {
                                 onClick={selectedItem}
                                 offset={-200}
                                 >Contact</Link></li>
-                            <li className="active"><a id="resume-link" href={Resume} target="_blank" rel="noopener noreferrer" onClick={selectedItem}>Resume</a></li>
+                            <li className="active"><a id="resume-link" href={ResumePDF} target="_blank" rel="noopener noreferrer">Resume</a></li>
                         </ul>
                     </nav>
                 </header>

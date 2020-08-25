@@ -1,0 +1,23 @@
+@import "../../default/default.css";
+
+a#resume-link {
+    text-decoration: none;
+    color: var(--color-5, #7ccdf4);
+    border-radius: 10px;
+    border: 2px solid var(--color-5, #7ccdf4);
+    padding: 14px 30px;
+}
+
+a#resume-link:hover {
+    transition: 0.8s;
+    border-color: var(--color-4, #00a9e2);
+    color: var(--color-4, #00a9e2);
+}
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) {
+        a#resume-link {
+            display: none;
+        }
+    }

@@ -7,7 +7,7 @@ class Email extends React.Component {
         return(
             <div className="full-email-div">
                 <div className="email-container">
-                    <a href="mailto:smithmax4211@gmail.com" className="full-email-link">smithmax4211@gmail.com</a>
+                    <a href="mailto:max.smith@duke.com" className="full-email-link">Max.Smith@Duke.edu</a>
                 </div>
             </div>
         )

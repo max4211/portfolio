@@ -15,7 +15,7 @@ class App extends React.Component {
 
   componentDidMount() {
     AOS.init({
-      offset: -100,
+      offset: 210,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,

@@ -85,7 +85,6 @@ class RoleTab extends React.Component {
                     tabIndex="-1" 
                     aria-labelledby="tab-2"
                     hidden={true}>
-                    >
                     <ResumeEntry props={capitalOne} />
                 </div>
                 <div 
