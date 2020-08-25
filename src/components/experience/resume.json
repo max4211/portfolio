@@ -2,16 +2,25 @@
     "companies": [
 
         {
+            "name": "Duke OIT",
+            "hyperlink": "https://www.capitalone.com/",
+            "position": "Automation Team",
+            "timeframe": "Fall 2020",
+            "bullets": [
+                "Leveraging Grouper – high education middleware – to target optimal student subset for COVID compliance and messaging"
+            ]
+        },
+
+        {
             "name": "Capital One",
             "hyperlink": "https://www.capitalone.com/",
             "position": "Software Engineer",
             "timeframe": "Summer 2020",
             "bullets": [
-                "Performed in DevOps team, implemented serverless deployment of rule validation platform on AWS Fargate.",
-                "Demoed proof of concept to leadership highlighting improvements to cost, security, and efficiency.",
-             	"Placed first in line of business hackathon for performance test validation project, saving engineers days of time.",
-             	"Volunteered with Capital One Coders to educate underprivileged students on building Markov chain bots with Python."
-                
+                "Worked on an Agile DevOps team to migrate credit card authorization platform to AWS Fargate",
+                "Placed first in business hackathon for data driven performance test validation, saving engineers days of time",
+                "Presented serverless proof of concept to leadership highlighting improvements to cost, security, and workflow efficiency",
+                "Volunteered with Capital One Coders to educate underprivileged students on building a Markov chain bot with Python"
             ]
         },
 
@@ -21,10 +30,10 @@
             "position": "Software Engineer",
             "timeframe": "Summer 2019",
             "bullets": [
-                "Analyzed auditory and ambient impacts of home appliances for a startup offering home analytics through remote sensing.",
-                "Determined specifications for an IoT wall plug with integrated sensors, leveraging research and system knowledge.",
-                "Worked in a Linux environment to design and integrate AI models within prototype ecosystem.",
-                "Created first real-time classification demonstration as proof of concept for investor pitches in addition to a due diligence analysis outlining technical obstacles and successes."
+                "Analyzed auditory and ambient impacts of home appliances for a startup offering home analytics through remote sensing",
+                "Determined specifications for an IoT wall plug with integrated sensors, leveraging research and system knowledge",
+                "Worked in a Linux environment to design and integrate AI models within prototype ecosystem",
+                "Created first real-time classification demonstration as proof of concept for investor pitches in addition to a due diligence analysis outlining technical obstacles and successes"
             ]
         },
 
@@ -34,9 +43,9 @@
             "position": "Research Assistant",
             "timeframe": "Spring 2019",
             "bullets": [
-                "Printed nanomaterial sensors to improve car safety by detecting tire tread thickness down to a millimeter scale.",
-                "Explored various fabrication schema and conducted research with graduate students to improve nanomaterial sensitivity.",
-                "Delivered final presentation on experimental results and future research topics, placing first in the Spring 2019 Electrical and Computer Engineering Independent Study research competition."
+                "Printed nanomaterial sensors to improve car safety by detecting tire tread thickness down to a millimeter scale",
+                "Explored various fabrication schema and conducted research with graduate students to improve nanomaterial sensitivity",
+                "Delivered final presentation on experimental results and future research topics, placing first in the Spring 2019 Electrical and Computer Engineering Independent Study research competition"
             ]
         },
 
@@ -46,9 +55,9 @@
             "position": "Research Assistant",
             "timeframe": "Summer 2018",
             "bullets": [
-                "Investigated neural remapping techniques to develop neuroprosthetics for paraplegics.", 
-                "Implanted electrodes into rat brains and led them through retraining exercises to examine brain remapping capacity.",
-                "Conducted visual discrimination trials and created MATLAB script to streamline data analysis for research publication."
+                "Investigated neural remapping techniques to develop neuroprosthetics for paraplegics", 
+                "Implanted electrodes into rat brains and led them through retraining exercises to examine brain remapping capacity",
+                "Conducted visual discrimination trials and created MATLAB script to streamline data analysis for research publication"
             ]
         },
 
@@ -58,9 +67,9 @@
             "position": "Business Development Intern",
             "timeframe": "Summers 2015 - 2017",
             "bullets": [
-                "Managed desktop design project including international sourcing and testing for a company specializing in biometrics.",
-                "Conducted and delivered research on Bluetooth Low Energy applications to streamline various university transactions.",
-                "Oversaw creation of company magazine as Editor-in-Chief, marketing emerging technology to prospective investors."
+                "Managed desktop design project including international sourcing and testing for a company specializing in biometrics",
+                "Conducted and delivered research on Bluetooth Low Energy applications to streamline various university transactions",
+                "Oversaw creation of company magazine as Editor-in-Chief, marketing emerging technology to prospective investors"
             ]
         }
 
