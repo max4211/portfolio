@@ -84,14 +84,6 @@ class Navigation extends React.Component {
                                 onClick={selectedItem}
                                 offset={-100}
                                 >Work</Link></li>
-                            <li className="nav-item active"><Link
-                                to="contact"
-                                spy={true}
-                                smooth={true}
-                                duration={1000}
-                                onClick={selectedItem}
-                                offset={-200}
-                                >Contact</Link></li>
                             <li className="active"><a id="resume-link" href={ResumePDF} target="_blank" rel="noopener noreferrer">Resume</a></li>
                         </ul>
                     </nav>
