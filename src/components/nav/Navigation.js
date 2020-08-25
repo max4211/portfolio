@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import { Link } from 'react-scroll';
-import ResumePDF from '../../docs/resume.pdf';
+import ResumePDF from '../../docs/smith_resume.pdf';
 import Logo from './Logo';
 import Toggle from './Toggle';
 import $ from 'jquery';
