@@ -1,6 +1,14 @@
 {   
     "companies": [
-
+        {
+            "name": "Apple",
+            "hyperlink": "https://www.apple.com/",
+            "position": "Software Enginer",
+            "timeframe": "June 2021",
+            "bullets": [
+                "Coming soon..."
+            ]
+        },
         {
             "name": "Duke OIT",
             "hyperlink": "https://oit.duke.edu/",
