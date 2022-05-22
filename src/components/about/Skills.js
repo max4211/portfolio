@@ -10,9 +10,9 @@ class Skills extends React.Component {
                 <li>JavaScript</li>
                 <li>Python</li>
                 <li>HTML & CSS</li>
+                <li>Swift</li>
                 <li>React</li>
                 <li>Docker</li>
-                <li>SpringBoot</li>
                 <li>AWS</li>
             </ul>
         )
