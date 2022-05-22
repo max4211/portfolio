@@ -12,8 +12,8 @@ class Skills extends React.Component {
                 <li>HTML & CSS</li>
                 <li>Swift</li>
                 <li>React</li>
-                <li>Docker</li>
                 <li>AWS</li>
+                <li>Docker</li>
             </ul>
         )
     }
