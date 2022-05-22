@@ -6,7 +6,6 @@
             "position": "Software Design Engineer",
             "timeframe": "June 2021",
             "bullets": [
-                "Automating workflows for validating and certifying wireless performance for prototype devices",
                 "Developed macOS application to automate wireless coexistence testing, increasing productivity by 20x",
                 "Designed and implemented Django web application to automate prototype unit management",
                 "Developing MERN application to automate test campaign creation and provide insights into factory station utilization",
