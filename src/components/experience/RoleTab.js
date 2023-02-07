@@ -7,12 +7,13 @@ class RoleTab extends React.Component {
 
     render() {
         let companies = resumeData.companies;
-        let apple = companies[0];
-        let dukeOIT = companies[1];
-        let capitalOne = companies[2];
-        let domusys = companies[3];
-        let franklinLab = companies[4];
-        let nicolelisLab = companies[5];
+        let janeStreet = companies[0];
+        let apple = companies[1];
+        let dukeOIT = companies[2];
+        let capitalOne = companies[3];
+        let domusys = companies[4];
+        let franklinLab = companies[5];
+        let nicolelisLab = companies[6];
         // let certify = companies[5];
 
         return(
@@ -27,7 +28,7 @@ class RoleTab extends React.Component {
                             aria-controls="panel-0" 
                             id="tab-0" 
                             tabIndex="0">
-                            Apple
+                            Jane Street
                         </button>
                         <button 
                             role="tab" 
@@ -35,7 +36,7 @@ class RoleTab extends React.Component {
                             aria-controls="panel-1" 
                             id="tab-1" 
                             tabIndex="-1">
-                            Duke OIT
+                            Apple
                         </button>
                         <button 
                             role="tab" 
@@ -43,7 +44,7 @@ class RoleTab extends React.Component {
                             aria-controls="panel-2" 
                             id="tab-2" 
                             tabIndex="-1">
-                            Capital One
+                            Duke OIT
                         </button>
                         <button 
                             role="tab" 
@@ -51,7 +52,7 @@ class RoleTab extends React.Component {
                             aria-controls="panel-3" 
                             id="tab-3" 
                             tabIndex="-1">
-                            Domusys
+                            Capital One
                         </button>
                         <button 
                             role="tab" 
@@ -59,13 +60,21 @@ class RoleTab extends React.Component {
                             aria-controls="panel-4" 
                             id="tab-4" 
                             tabIndex="-1">
-                            Franklin Lab
+                            Domusys
                         </button>
                         <button 
                             role="tab" 
                             aria-selected="false" 
                             aria-controls="panel-5" 
                             id="tab-5" 
+                            tabIndex="-1">
+                            Franklin Lab
+                        </button>
+                        <button 
+                            role="tab" 
+                            aria-selected="false" 
+                            aria-controls="panel-6" 
+                            id="tab-6" 
                             tabIndex="-1">
                             Nicolelis Lab
                         </button>
@@ -77,7 +86,7 @@ class RoleTab extends React.Component {
                     tabIndex="0" 
                     aria-labelledby="tab-0"
                     >
-                    <ResumeEntry props={apple} />
+                    <ResumeEntry props={janeStreet} />
                 </div>
                 <div 
                     className="resume-entry-div"
@@ -85,8 +94,9 @@ class RoleTab extends React.Component {
                     role="tabpanel" 
                     tabIndex="-1" 
                     aria-labelledby="tab-1"
-                    hidden={true}>
-                    <ResumeEntry props={dukeOIT} />
+                    hidden={true}
+                    >
+                    <ResumeEntry props={apple} />
                 </div>
                 <div 
                     className="resume-entry-div"
@@ -95,7 +105,7 @@ class RoleTab extends React.Component {
                     tabIndex="-1" 
                     aria-labelledby="tab-2"
                     hidden={true}>
-                    <ResumeEntry props={capitalOne} />
+                    <ResumeEntry props={dukeOIT} />
                 </div>
                 <div 
                     className="resume-entry-div"
@@ -104,7 +114,7 @@ class RoleTab extends React.Component {
                     tabIndex="-1" 
                     aria-labelledby="tab-3"
                     hidden={true}>
-                    <ResumeEntry props={domusys} />
+                    <ResumeEntry props={capitalOne} />
                 </div>
                 <div 
                     className="resume-entry-div"
@@ -113,14 +123,23 @@ class RoleTab extends React.Component {
                     tabIndex="-1" 
                     aria-labelledby="tab-4"
                     hidden={true}>
-                    <ResumeEntry props={franklinLab} />
+                    <ResumeEntry props={domusys} />
                 </div>
                 <div 
                     className="resume-entry-div"
                     id="panel-5" 
                     role="tabpanel" 
                     tabIndex="-1" 
-                    aria-labelledby="tab-5"
+                    aria-labelledby="tab-6"
+                    hidden={true}>
+                    <ResumeEntry props={franklinLab} />
+                </div>
+                <div 
+                    className="resume-entry-div"
+                    id="panel-6" 
+                    role="tabpanel" 
+                    tabIndex="-1" 
+                    aria-labelledby="tab-6"
                     hidden={true}>
                     <ResumeEntry props={nicolelisLab} />
                 </div>

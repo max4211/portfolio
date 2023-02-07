@@ -12,7 +12,7 @@ class About extends React.Component {
                 <div className="about-text">
                     <h1>About Me</h1>
                     <p>Hello! I'm Max, a software engineer from  Potomac, MD.</p>
-                    <p>I recently graduated from <a className="custom-link" href="https://duke.edu/" target="_blank" rel="noopener noreferrer">Duke University</a> with a BS in Computer Science, Electrical and Computer Engineering, and minor in Economics. Since June 2021, I have been working as a Software Engineer at <a className="custom-link" href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">Apple</a> in Cupertino!</p>
+                    <p>I recently graduated from <a className="custom-link" href="https://duke.edu/" target="_blank" rel="noopener noreferrer">Duke University</a> with a BS in Computer Science, Electrical and Computer Engineering, and minor in Economics. Since October 2022, I have been working as a Production Engineer at <a className="custom-link" href="https://www.janestreet.com/" target="_blank" rel="noopener noreferrer">Jane Street</a> in New York City!</p>
                     <p>Here are some technologies I've been working with:</p>
                     <Skills />
                 </div>

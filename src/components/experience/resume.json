@@ -1,10 +1,19 @@
 {   
     "companies": [
         {
+            "name": "Jane Street",
+            "hyperlink": "https://www.janestreet.com/",
+            "position": "Production Engineer",
+            "timeframe": "October 2022",
+            "bullets": [
+                "Coming soon..."
+            ]
+        },
+        {
             "name": "Apple",
             "hyperlink": "https://www.apple.com/",
             "position": "Software Design Engineer",
-            "timeframe": "June 2021",
+            "timeframe": "June 2021 - August 2022",
             "bullets": [
                 "Developed macOS application to automate wireless coexistence testing, increasing productivity by 20x",
                 "Designed and implemented Django web application to automate prototype unit management",
